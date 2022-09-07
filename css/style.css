@@ -75,3 +75,24 @@ header {
 }
 
 /* FOOTER */
+
+footer{
+  min-height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 2em;
+}
+
+.footer-top{
+  min-height: 60px;  
+}
+
+.footer-left, .footer-right{
+  background-color: rgba(255, 255, 0, 0.273);
+}
+
+/* DEBUG */
+.wborder{
+  border: 1px solid rgb(255, 255, 255);
+}
