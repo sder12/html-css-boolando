@@ -74,6 +74,34 @@ header {
   background-color: lightgreen;
 }
 
+/* Two section inside cards */
+.main-img{
+  height: 80%;
+  background-color: pink;
+}
+
+.img-caption{
+  height: 20%;
+  background-color: #ff6900;
+}
+
+.card-heart{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(44, 36, 100);
+}
+
+.card-sconti{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+.card-sosten{
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+
 /* FOOTER */
 
 footer{
