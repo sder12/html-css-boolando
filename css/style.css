@@ -44,6 +44,10 @@ a{
   flex-wrap: wrap;
 }
 
+.gap{
+  gap: 1em;
+}
+
 /* Position */
 .absolute{
   position: absolute;
@@ -93,10 +97,8 @@ header {
 /* MAIN */
 
 .cards { 
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 1em);
   margin-bottom: 4em;
-  /* DEBUG 
-  background-color: lightgreen;   */
 }
 
 /* CARDS */
