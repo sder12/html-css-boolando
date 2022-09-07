@@ -9,6 +9,9 @@
 .container {
   margin: 0 auto;
   width: 95%;
+  /* DEBUG */
+  border: 1px solid black;
+  height: 100%;
 }
 
 html {
@@ -20,8 +23,38 @@ img{
 }
 
 /* Flex */
+
+.flex{
+  display: flex;
+}
+.space-between{
+  justify-content: space-between;
+}
+.align-item-cent{
+  align-items: center;
+}
+
+
 /* Typography */
 
 /* HEADER */
+header{
+  height: 80px;  
+  background-color: #ff6900;
+}
+
+.header-nav, .header-icons{
+  width: 35%;
+  /* DEBUG */
+  border: 1px solid white;
+}
+
+.header-logo{
+  width: 30%;
+  /* DEBUG */
+  border: 1px solid white;
+}
+
+
 /* MAIN */
 /* FOOTER */
