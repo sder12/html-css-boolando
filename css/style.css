@@ -9,8 +9,6 @@
 .container {
   margin: 0 auto;
   width: 80%;
-  /* DEBUG */
-  border: 1px solid black;
   height: 100%;
 }
 
@@ -27,6 +25,9 @@ img {
   margin-top: 3em;
 }
 
+a{
+  text-decoration: none;
+ }
 
 /* Flex */
 
@@ -58,20 +59,36 @@ img {
 header {
   height: 80px;
   background-color: #ff6900;
+  color: white;
 }
 
 .header-nav,
 .header-icons {
   width: 35%;
-  /* DEBUG */
-  border: 1px solid white;
 }
 
 .header-logo {
-  width: 30%;
-  /* DEBUG */
-  border: 1px solid white;
+  width: 20%;  
 }
+ .header-icons{
+  text-align: right;  
+ }
+
+ .header-icons > i{  
+  margin-left: .5em;
+ }
+
+ /* nav */
+ .header-nav ul li{
+  display: inline-block;  
+ }
+ .header-nav ul li a{
+  color: white;
+  font-weight: bold;
+  padding-right: .3em; 
+ }
+
+
 
 /* MAIN */
 
@@ -179,4 +196,8 @@ footer{
 /* DEBUG */
 .wborder{
   border: 1px solid rgb(255, 255, 255);
+}
+
+.border{
+  border: 1px solid rgb(0, 0, 0);
 }
