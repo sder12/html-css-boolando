@@ -94,9 +94,9 @@ header {
 
 .cards { 
   width: calc(100% / 3);
-  margin-bottom: 0.4em;
-  /* DEBUG */ 
-  background-color: lightgreen;  
+  margin-bottom: 4em;
+  /* DEBUG 
+  background-color: lightgreen;   */
 }
 
 /* CARDS */
