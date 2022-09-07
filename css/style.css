@@ -8,53 +8,70 @@
 /* COMMON */
 .container {
   margin: 0 auto;
-  width: 95%;
+  width: 80%;
   /* DEBUG */
   border: 1px solid black;
   height: 100%;
 }
 
 html {
-  font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
+.mt {
+  margin-top: 3em;
+}
+
+
 /* Flex */
 
-.flex{
+.flex {
   display: flex;
 }
-.space-between{
+.space-between {
   justify-content: space-between;
 }
-.align-item-cent{
+.align-item-cent {
   align-items: center;
 }
-
+.wrap {
+  flex-wrap: wrap;
+}
 
 /* Typography */
 
 /* HEADER */
-header{
-  height: 80px;  
+header {
+  height: 80px;
   background-color: #ff6900;
 }
 
-.header-nav, .header-icons{
+.header-nav,
+.header-icons {
   width: 35%;
   /* DEBUG */
   border: 1px solid white;
 }
 
-.header-logo{
+.header-logo {
   width: 30%;
   /* DEBUG */
   border: 1px solid white;
 }
 
-
 /* MAIN */
+
+.cards {
+  height: 300px;
+  width: calc(100% / 3);
+  margin-bottom: 0.4em;
+  /* DEBUG */
+  border: 1px solid white;
+  background-color: lightgreen;
+}
+
 /* FOOTER */
