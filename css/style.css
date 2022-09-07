@@ -1,0 +1,27 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+html {
+  font-size: 62,5%;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* Flex */
+/* Typography */
+
+/* HEADER */
+/* MAIN */
+/* FOOTER */
