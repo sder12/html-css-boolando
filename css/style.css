@@ -50,6 +50,10 @@ img {
 
 /* Typography */
 
+.txt-bold{
+  font-weight: bold;
+}
+
 /* HEADER */
 header {
   height: 80px;
@@ -94,6 +98,7 @@ header {
 
 .img-caption{
   height: 15%;
+  padding: .3em 0;
   background-color: #ffffff;
 }
 
@@ -104,6 +109,7 @@ header {
 
 .img-caption > span:nth-child(2){
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .img-caption > span:nth-child(3){
@@ -147,20 +153,28 @@ header {
 /* FOOTER */
 
 footer{
-  min-height: 100px;
+  min-height: 120px;
   width: 100%;
-  background-color: black;
+  background-color: #1a1a1a;
   color: white;
   margin-top: 2em;
 }
 
 .footer-top{
-  min-height: 60px;  
+  min-height: 70px;  
 }
 
-.footer-left, .footer-right{
-  background-color: rgba(255, 255, 0, 0.273);
+.footer-left > *, .footer-right > *{
+  padding-top: .4em;
 }
+
+.footer-left > span{
+  font-size: .6rem;
+}
+.footer-left > h5, .footer-right > h5, .footer-right > div > i{
+  font-size: .8rem;
+}
+
 
 /* DEBUG */
 .wborder{
