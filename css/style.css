@@ -44,9 +44,9 @@ a{
   flex-wrap: wrap;
 }
 
-.gap{
+/* .gap{
   gap: 1em;
-}
+} */
 
 /* Position */
 .absolute{
@@ -64,6 +64,11 @@ header {
   height: 80px;
   background-color: #ff6900;
   color: white;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .header-nav,
@@ -97,8 +102,14 @@ header {
 /* MAIN */
 
 .cards { 
-  width: calc(100% / 3 - 1em);
-  margin-bottom: 4em;
+  width: calc(100% / 3 - 2em / 3);
+  margin-top: 4em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+div.cards:nth-of-type(3n){
+  margin-right: 0px;
 }
 
 /* CARDS */
@@ -195,9 +206,16 @@ footer{
   padding-top: .4em;
 }
 
-.footer-left > span{
-  font-size: .6rem;
+.footer-left ul li{  
+  display: inline-block;
+  text-decoration: none;
 }
+
+.footer-left ul li a{
+  color: white;
+  font-size: .8rem;
+}
+
 .footer-left > h5, .footer-right > h5, .footer-right > div > i{
   font-size: .8rem;
 }
